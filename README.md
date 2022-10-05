@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github repo]()
-- Live Site URL: [live site]()
+- Solution URL: [github repo](https://github.com/Nabster2010/Social-media-dashboard-with-theme-switcher)
+- Live Site URL: [live site](https://keen-alpaca-cc3fb7.netlify.app/)
 
 ### Built with
 
