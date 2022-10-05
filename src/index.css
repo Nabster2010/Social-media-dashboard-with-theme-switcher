@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .card-big {
+    @apply flex rounded-md flex-col gap-6 justify-between items-center px-20 py-8 bg-LightGrayishBlue dark:bg-DarkDesaturatedBlue relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0  before:h-[5px] overflow-hidden transition hover:bg-Toggle/40 dark:hover:bg-DarkGrayishBlue/40 cursor-pointer;
+  }
+  .card-big-facebook {
+    @apply before:bg-Facebook;
+  }
+  .card-big-twitter {
+    @apply before:bg-Twitter;
+  }
+  .card-big-instagram {
+    @apply before:bg-gradient-to-r
+    before:from-InstagramFrom
+    before:to-InstagaramTo;
+  }
+  .card-big-youtube {
+    @apply before:bg-YouTube;
+  }
+}
+
+.card-wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
